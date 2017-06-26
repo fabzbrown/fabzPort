@@ -1,7 +1,3 @@
-* {
-    /*background-color: red;*/
-}
-
 body {
     padding-top: 70px;
     font-family: "Lato", sans-serif;
@@ -18,6 +14,10 @@ object {
 
 img {
     box-shadow: 5px 5px 3px #888;
+}
+
+.img-teaser {
+    cursor: pointer; cursor: hand;
 }
 
 
@@ -46,11 +46,18 @@ img {
 
 .title-logo{
     margin-top: 17px;
-    box-shadow: 5px 5px 3px white;
+    box-shadow: 5px 5px 3px #888;
 }
 
 .modal {
     font-family: sans-serif;
+}
+
+.modal-blurb {
+    color: black;
+    text-align: justify;
+    cursor: pointer; cursor: hand;
+    margin: 0 10px 15px 10px;
 }
 
 .modal-body {
