@@ -37,7 +37,7 @@ img {
 }
 
 .text-thin {
-    
+
 }
 
 .title-super {
@@ -57,6 +57,13 @@ img {
     font-family: sans-serif;
     font-size: 1.2em;
     color: grey;
+    text-align: justify;
+    margin: 0 15px 0 15px;
+}
+
+.modal-body p {
+    text-align: justify;
+    margin: 0 25px 0 25px;
 }
 
 .modal img{
